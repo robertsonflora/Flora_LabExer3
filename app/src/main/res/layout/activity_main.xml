@@ -60,14 +60,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/saveSharedPreferences_button"
             android:text="Shared Preferences"
-            android:onClick="saveInfo"/>
+            android:onClick="savePreferences"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/saveInternalStorage_button"
             android:text="Internal Storage"
-            android:onClick="displayInfo"/>
+            android:onClick="saveStorage"/>
 
         <Button
             android:layout_width="wrap_content"
